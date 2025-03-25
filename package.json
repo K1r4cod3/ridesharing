@@ -19,6 +19,7 @@
   "homepage": "https://github.com/K1r4cod3/ridesharing#readme",
   "dependencies": {
     "express": "^4.21.2",
-    "mysql": "^2.18.1"
+    "mysql": "^2.18.1",
+    "mysql2": "^3.14.0"
   }
 }
