@@ -3,32 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/register.css">
     <title>Register</title>
 </head>
 <body>
     <h1>Register</h1>
     <label for="username">Username:</label>
-    <input type="text" name="username" id="username" required>
-    <span id="usernameError" class="error"></span>
+    <input type="text" name="username" id="username" required><br>
+    <span id="usernameError" class="error"></span><br>
     <label for="password">Password:</label>
-    <input type="password" name="password" id="password" required>
-    <span id="passwordError" class="error"></span>
-    <label for="confirm-password">Confirm Password:</label>
-    <input type="password" name="confirm-password" id="confirm-password" required>
-    <span id="confirmPasswordError" class="error"></span>
-    <label for="fname">First Name:</label>
-    <input type="text" name="fname" id="fname" required>
-    <span id="fnameError" class="error"></span>
-    <label for="lname">Last Name:</label>
-    <input type="text" name="lname" id="lname" required>
-    <span id="lnameError" class="error"></span>
+    <input type="password" name="password" id="password" required><br>
+    <span id="passwordError" class="error"></span><br>
+    <label for="confirmPassword">Confirm Password:</label>
+    <input type="password" name="confirmPassword" id="confirmPassword" required><br>
+    <span id="confirmPasswordError" class="error"></span><br>
+    <label for="fName">First Name:</label>
+    <input type="text" name="fName" id="fName" required><br>
+    <span id="fnameError" class="error"></span><br>
+    <label for="lName">Last Name:</label>
+    <input type="text" name="lName" id="lName" required><br>
+    <span id="lnameError" class="error"></span><br>
     <label for="email">Email:</label>
-    <input type="email" name="email" id="email" required>
-    <span id="emailError" class="error"></span>
+    <input type="email" name="email" id="email" required><br>
+    <span id="emailError" class="error"></span><br>
     <label for="phone">Phone:</label>
-    <input type="tel" name="phone" id="phone" required>
-    <span id="phoneError" class="error"></span>
-    <button type="submit">Register</button>
+    <input type="tel" name="phone" id="phone" required><br>
+    <span id="phoneError" class="error"></span><br>
+    <button type="submit" id="submit">Register</button>
     <p>Already have an account? <a href="login.html">Login</a></p>
+
+    <script src="../js/register.js"></script>
 </body>
 </html>
